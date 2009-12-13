@@ -7,7 +7,6 @@ Original repo has gone offline so i'm making it public here for my personal proj
 from distutils.core import setup
 
 
-description, long_description = __doc__.split('\n\n', 1)
 VERSION = '0.1.0'
 
 setup(
