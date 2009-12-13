@@ -1,18 +1,19 @@
 """
 Exif.py
-written by Gene Cash for reading EXIF and IPTC data in python. Original repo has gone offline so i'm making it public here for my personal projects.
+written by Gene Cash for reading EXIF and IPTC data in python.
+Original repo has gone offline so i'm making it public here for my personal projects.
 """
 
 from distutils.core import setup
 
 
 description, long_description = __doc__.split('\n\n', 1)
-VERSION = '1.0'
+VERSION = '0.1.0'
 
 setup(
     name='exif',
     version=VERSION,
-    author='gene_cash',
+    author='genecash',
     description=description,
     long_description=long_description,
     platforms=['any'],
