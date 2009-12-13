@@ -14,8 +14,7 @@ setup(
     name='exif',
     version=VERSION,
     author='genecash',
-    description=description,
-    long_description=long_description,
+    description='for reading EXIF and IPTC data',
     platforms=['any'],
     url='http://github.com/gregnewman/exif',
     classifiers=[
